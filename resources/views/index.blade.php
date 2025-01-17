@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
+<!-- <!DOCTYPE html> -->
+<!-- <html>
+
 <head>
     <meta charset="utf-8">
     <title>Media</title>
@@ -24,4 +25,11 @@
             <LI>Selesai</LI>
             </ol>
 </body>
-</html>
+</html> -->
+
+@extends('template.master')
+@section('title', ' movies')
+@section('content','Nama Movies')
+@section('judul','gendres')
+@section('konten','Nama gendre')
+
